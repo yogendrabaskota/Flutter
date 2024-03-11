@@ -8,57 +8,92 @@ class HelpPage extends StatelessWidget {
         title: Text('Help'),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'AGROTECHGUIDE',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                'Welcome to Our App!',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'The AGROTECHGUIDE is a user-friendly tool designed to assist farmers in making informed decisions about crop selection based on environmental conditions. To utilize the app effectively, follow these simple steps:',
-              style: TextStyle(fontSize: 16),
-            ),
-            SizedBox(height: 10),
-            Text(
-              '1. Launch the App: Open the Crop Advisor app on your device, and you\'ll be greeted by a welcoming interface.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '2. Enter Environmental Data: On the main screen, input the current temperature, pressure, and humidity in your farming area. Make sure to provide accurate and up-to-date information for precise recommendations.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '3. Submit Data: Once you\'ve entered the environmental data, tap the "Submit" button to initiate the analysis process.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '4. Receive Recommendations: The app will process the provided data and generate tailored recommendations for the most suitable crops for your specific conditions. You\'ll receive detailed feedback on which crops thrive in the current environment.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '5. Explore Additional Information: Beyond crop recommendations, the app offers additional resources and information on optimal cultivation practices, planting schedules, and potential challenges associated with specific crops.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '6. Save and Share: Save the generated reports for future reference, and easily share the recommendations with fellow farmers or agricultural experts.',
-              style: TextStyle(fontSize: 16),
-            ),
-            Text(
-              '7. Stay Updated: The Crop Advisor app regularly updates its database and algorithms, ensuring that you receive the latest and most accurate insights for your farming decisions.',
-              style: TextStyle(fontSize: 16),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'Empower yourself with the knowledge to maximize your crop yield and make informed decisions for a successful harvest season with the Crop Advisor app. Happy farming!',
-              style: TextStyle(fontSize: 16),
-            ),
-          ],
+              SizedBox(height: 20),
+              Text(
+                'Check Your Soil:',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Curious about what crops would thrive on your land? Select "Check Your Soil" to input data about your soil and climate conditions.',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Input Your Data:',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Enter information such as nitrogen, phosphorus, potassium levels, pH value of your soil, and rainfall amount. Don\'t worry, it\'s easy!',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Submit Your Details:',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Hit the "Submit" button to send your data to our smart algorithm. It works quickly to analyze and suggest the best crop for your land.',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Receive Suggestions:',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Voila! Our app provides you with tailored suggestions based on your land\'s characteristics. Discover which crop is the perfect match for your soil!',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Explore Help and More:',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Need assistance or want to learn more about farming practices? Check out the "Help" and "More" sections for useful information and tips.',
+                style: TextStyle(fontSize: 16),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Happy Farming!',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'Armed with valuable insights, you\'re ready to maximize your crop yield and embark on a successful farming journey. Happy farming!',
+                style: TextStyle(fontSize: 16),
+              ),
+            ],
+          ),
         ),
       ),
     );

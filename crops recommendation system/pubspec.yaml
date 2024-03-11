@@ -45,3 +45,21 @@ flutter:
 
   assets:
     - assets/a.jpg
+    - assets/b.jpg
+    - assets/c.jpg
+    - assets/rice.png
+    - assets/maize.png
+    - assets/chickpea.png
+    - assets/kidneybeans.png 
+    - assets/pigeonpeas.png
+    - assets/mothbeans.png
+    - assets/mungbean.png
+    - assets/blackgram.png
+    - assets/lentil.png
+    - assets/pomegranate.png
+    - assets/banana.png
+    - assets/mango.png
+    - assets/grapes.png
+    - assets/watermelon.png
+    - assets/muskmelon.png
+    - assets/apple.png
